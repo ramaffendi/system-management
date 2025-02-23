@@ -1,0 +1,83 @@
+.input-employee-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  color: #333;
+}
+
+.employee-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.employee-form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.employee-form input,
+.employee-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.position-select {
+  margin-top: 5px;
+}
+
+.selected-positions {
+  margin-top: 15px;
+}
+
+.selected-positions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.position-item {
+  display: flex;
+  justify-content: space-between;
+  background: #e9ecef;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.remove-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-btn,
+.back-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  background: #007bff;
+  color: white;
+}
+
+.back-btn {
+  background: #6c757d;
+  color: white;
+}
